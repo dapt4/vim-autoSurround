@@ -14,7 +14,7 @@ Or using a Plugin manager like:
 "NeoBundle\
 `NeoBundle 'dapt4/vim-autoSurround'`\
 "or VimPlug\
-`Plug 'dapt4/vim-autoSurround'`\
+`Plug 'dapt4/vim-autoSurround'`
 
 :source %
 :NeoBundleInstall
