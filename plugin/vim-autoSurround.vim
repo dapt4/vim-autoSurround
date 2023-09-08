@@ -1,5 +1,4 @@
 "code
-plug '~/.vim/plugged/vim-autoSurround'
 function! AutoSurround(start_char, end_char)
   " Check if there is an active visual selection
   if visualmode() == "v"
