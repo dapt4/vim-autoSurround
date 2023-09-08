@@ -1,0 +1,8 @@
+- works like the editor.autoSurround of vscode
+- for use enter in visual mode "v" and select a text, then type: ", ', `, (, ), {, }, [ or ] 
+
+example: 
+PersonCard -> <PersonCard> 
+PersonCard -> <PersonCard> 
+
+
