@@ -1,4 +1,5 @@
 "code
+plug '~/.vim/plugged/vim-autoSurround'
 function! AutoSurround(start_char, end_char)
   " Check if there is an active visual selection
   if visualmode() == "v"
@@ -41,7 +42,12 @@ function! AutoSurround(start_char, end_char)
     endif
     call cursor(start_line, start_col + 1)
     normal! v
-    call cursor(end_line, end_col)
+    if type(selected_text) == 3
+      let number = 1
+    else 
+      let number = 0
+    endif
+    call cursor(end_line, end_col + number)
   endif
 endfunction
 
